@@ -1,0 +1,14 @@
+Project Goals
+Project documentation
+02/26/2018
+
+The goals of this project and its contributors are as follows:
+
+As students:
+- Demonstrate knowledge of software engineering practices by contributing to an open source project.
+
+As professionals:
+- Improve the accessibility of the Wikimedia project through resolving accessibility issues in Wikimedia's issue tracker.
+- Increase our software engineering experience outside of academia.
+- Build our professional portfolios.
+

@@ -1,0 +1,16 @@
+author: CJ Summeril
+created: 20180327024835404
+modified: 20180328034803261
+tags: zombedia
+title: Project Notebook
+type: text/vnd.tiddlywiki
+
+! This is the project notebook for Zombedia, served using [[TiddlyWiki|https://tiddlywiki.com/static/TiddlyWiki.html]]
+!! The initial project.meeting_notes_2018-1-30.txt
+We started by approaching the [[SugarLabs|https://sugarlabs.org/]] project.
+
+!! Our user declaration.
+
+To serve this link, type ``tiddlywiki zombedia_notebook --server``
+
+[[pres 1 reflection|http://127.0.0.1:8080/#group_presentation_reflection_1]]

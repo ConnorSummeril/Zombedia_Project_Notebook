@@ -1,0 +1,57 @@
+Accomplished tasks:
+   -> Learning Python.
+   -> Setting up redmine.
+   -> Meeting with Walter.
+   -> Get acquanted with Github.
+
+Jody check in:
+   -> Wants us to work on issue already in the tracker (not the music thing.)
+   -> Suggests pushing him [Walter] the direction of something on main sugar.
+
+
+Meeting tasks:
+   -> Making sure everyone can install sugar.
+   -> Working on making sure everyone can build sugar.
+   -> Discussing setting up a meeting with stakeholders (Us, Walter, Jody.)
+
+Jody check in:
+   -> Will try to attend meeting with Walter. (7-8pm Fri Feb 2)
+   -> However, not necessary, not all stakeholders need to be met with, just represented.
+   -> Want tight small vision statement.
+   -> Want to identify win conditions for stakeholders.
+
+Planning meeting for Sunday 6-8pm
+   -> Will @channel to remind everyone.
+
+For sprint until tues:
+   -> Finish build environment (hopefully today though)
+   -> Start writing user stories.
+      -> User stories on Wiki
+   -> Meet with Walter (hopefully) in order to:
+   -> Update mission statement to reflect all stakeholders' interests.
+            Brain-Storming:
+            - Stakeholder: GNUcose (us)
+               - What do we want to gain from this project?
+                     - Learn a new language?
+                     - Get experience working with HFOSS:
+                           - Learn how to use VCS in the real world.
+                           - Learn how to deal with real people that care about their projects.
+                     - Learn about contributing to an open source community.
+                     - Have published work.
+               - Graduate.
+               - Help kids learn!
+
+            - Stakeholder: Walter Bender.
+                 - Get some badly-needed test coverage.
+
+            - Stakeholder: CS 4260 classmates
+                 - Not give too long of presentations.
+
+            - Stakeholder: Jody
+                 - Make sure students learn something.
+
+            Draft:
+               - Add value and become part of the HFOSS community????
+
+   -> Add link to slack channel to wiki. 
+

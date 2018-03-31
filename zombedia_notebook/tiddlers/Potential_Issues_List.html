@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+<title>Potential Issues List - GNUcose - Redmine for CS at MSU Denver</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="tgvQf/6D03H0kjPXGq26+WOiJJKZQglRF9clgWqEq/CDswRHJ7FX+/f0Npy1KUiGIu4jzrYX1FrOJuI/uKy8bg==" />
+<link rel='shortcut icon' href='/redmine/favicon.ico' />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/jquery/jquery-ui-1.11.0.css" />
+<link rel="stylesheet" media="all" href="/redmine/themes/classic/stylesheets/application.css" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/responsive.css" />
+
+<script src="/redmine/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js"></script>
+<script src="/redmine/javascripts/application.js"></script>
+<script src="/redmine/javascripts/responsive.js"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="all" href="/redmine/plugin_assets/scrum/stylesheets/scrum.css" />
+<script src="/redmine/plugin_assets/scrum/javascripts/scrum.js"></script>
+<!-- page specific tags -->
+  <script src="/redmine/javascripts/attachments.js"></script>
+</head>
+<body class="theme-Classic project-gnucose controller-documents action-show">
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/redmine/projects/gnucose/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="hidden" name="documents" value="1" />
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar ">
+                <a href="/redmine/users/175"><img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=80&amp;default=" width="80" height="80" /></a>
+            <a class="user active" href="/redmine/users/175">ConnorSummeril</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/redmine/my/account">My account</a></li>
+<li><a class="logout" rel="nofollow" data-method="post" href="/redmine/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/redmine/users/175">ConnorSummeril</a></div>
+    <ul><li><a class="home" href="/redmine/">Home</a></li>
+<li><a class="my-page" href="/redmine/my/page">My page</a></li>
+<li><a class="projects" href="/redmine/projects">Projects</a></li>
+<li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/redmine/projects/gnucose/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="documents" value="1" />
+        <label for='q'>
+          <a accesskey="4" href="/redmine/projects/gnucose/search">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <span class="jump-box-arrow"></span><select name="project_quick_jump_box" id="project_quick_jump_box" onchange="if (this.value != &#39;&#39;) { window.location = this.value; }"><option value=''>Jump to a project...</option><option value="" disabled="disabled">---</option><option value="/redmine/projects/gnucose?jump=documents" selected="selected">GNUcose</option><option value="/redmine/projects/zombedia?jump=documents">Zombedia</option></select>
+    </div>
+
+    <h1>GNUcose</h1>
+
+    <div id="main-menu">
+        <ul><li><a class="overview" href="/redmine/projects/gnucose">Overview</a></li>
+<li><a class="activity" href="/redmine/projects/gnucose/activity">Activity</a></li>
+<li><a class="sprint" href="/redmine/projects/gnucose/sprints">Sprint</a></li>
+<li><a class="product-backlog" href="/redmine/projects/gnucose/product_backlog">Backlog</a></li>
+<li><a class="issues" href="/redmine/projects/gnucose/issues">Issues</a></li>
+<li><a accesskey="7" class="new-issue" href="/redmine/projects/gnucose/issues/new">New issue</a></li>
+<li><a class="gantt" href="/redmine/projects/gnucose/issues/gantt">Gantt</a></li>
+<li><a class="calendar" href="/redmine/projects/gnucose/issues/calendar">Calendar</a></li>
+<li><a class="news" href="/redmine/projects/gnucose/news">News</a></li>
+<li><a class="documents selected" href="/redmine/projects/gnucose/documents">Documents</a></li>
+<li><a class="wiki" href="/redmine/projects/gnucose/wiki">Wiki</a></li>
+<li><a class="files" href="/redmine/projects/gnucose/files">Files</a></li>
+<li><a class="settings" href="/redmine/projects/gnucose/settings">Settings</a></li></ul>
+    </div>
+</div>
+
+<div id="main" class="nosidebar">
+    <div id="sidebar">
+        
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+<a class="icon icon-edit" accesskey="e" href="/redmine/documents/119/edit">Edit</a>
+<a data-confirm="Are you sure?" class="icon icon-del" rel="nofollow" data-method="delete" href="/redmine/documents/119">Delete</a>
+</div>
+
+<h2>Potential Issues List</h2>
+
+<p><em>User documentation<br />
+02/19/2018</em></p>
+
+
+<div class="wiki">
+<p><a class="external" href="https://phabricator.wikimedia.org/T156450">https://phabricator.wikimedia.org/T156450</a><br />QuizGame Special:QuestionGameHome should order headings correctly for semantics and accessibility</p>
+
+
+	<p><a class="external" href="https://phabricator.wikimedia.org/T8419">https://phabricator.wikimedia.org/T8419</a><br />Use paragraphs, rather than line breaks, where appropriate within &lt;poem&gt;</p>
+
+
+	<p><a class="external" href="https://phabricator.wikimedia.org/T2477">https://phabricator.wikimedia.org/T2477</a><br />Accesskeys conflict with browser keyboard shortcuts</p>
+
+
+	<p><a class="external" href="https://phabricator.wikimedia.org/T6845">https://phabricator.wikimedia.org/T6845</a><br />CAPTCHA doesn't work for blind people</p>
+</div>
+
+<h3>Files</h3>
+
+
+<p><a onclick="$(&#39;#add_attachment_form&#39;).show(); return false;" id="attach_files_link" href="/redmine/documents/119">New file</a></p>
+  <form id="add_attachment_form" style="display:none;" enctype="multipart/form-data" action="/redmine/documents/119/add_attachment" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HTr0h1TLYBE68XsX3xweZf3kk/9CW6UyETTygwZIGhMogiC/jfnkmzmXflxwmOwavKiUo20OeDnIxTU91GANjQ==" />
+  <div class="box">
+  <p><span id="attachments_fields">
+</span>
+<span class="add_attachment">
+<input type="file" name="attachments[dummy][file]" class="file_selector" multiple="multiple" onchange="addInputFiles(this);" data-max-file-size="52428800" data-max-file-size-message="This file cannot be uploaded because it exceeds the maximum allowed file size (50 MB)" data-max-concurrent-uploads="2" data-upload-path="/redmine/uploads.js" data-description-placeholder="Optional description" />
+(Maximum size: 50 MB)
+</span>
+
+</p>
+  </div>
+  <input type="submit" name="commit" value="Add" />
+</form>
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2016 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

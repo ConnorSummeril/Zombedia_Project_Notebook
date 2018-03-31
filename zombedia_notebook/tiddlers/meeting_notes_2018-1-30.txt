@@ -1,0 +1,5 @@
+-Discussed tasks and mission statements.
+-Added goals
+-Added sub tasks to sprints and goals primarily about building and documentation.
+-Discussed next steps (investigating Python).
+

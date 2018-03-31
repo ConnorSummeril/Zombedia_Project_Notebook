@@ -1,0 +1,68 @@
+<walterbender> hi
+[13:00] <walterbender> I didn't notice the PM window
+[13:00] <walterbender> you there?
+[13:01] <LukeHopkins> Yes.
+[13:02] <walterbender> shall we get started?
+[13:02] <walterbender> who else is with you?
+[13:02] <LukeHopkins> I'm all set. Just me today.
+[13:02] <walterbender> OK
+[13:03] <walterbender> can you give me a bit more context re your project: what are the constraints?
+[13:03] <walterbender> what is expected of your team?
+[13:03] <LukeHopkins> Alright here is the class details:
+[13:05] <LukeHopkins> This project is to help with a open-source project. We are to try to do this in a Agile format, such as SCRUM. Last, we have to get this turned in by May, but ideally mid-April is a better deadline so we can finish up any documentation required.
+[13:05] <walterbender> OK
+[13:05] <walterbender> any prior experience with FOSS projects on the team?
+[13:07] <LukeHopkins> We worked briefly on a couple projects for BlueJ last semester. These were on build frameworks, namely ant and maven. We were also taught the basics of what we will need to work with GitHub.
+[13:07] <walterbender> for this project, github is critical
+[13:08] <walterbender> any one have experience with TravicCS and/or node.js?
+[13:10] <LukeHopkins> Let me check some of my classmates resumes. One moment.
+[13:10] <walterbender> don't worry about it...
+[13:11] <walterbender> something you can learn
+[13:11] <walterbender> Anyway, here is what I had in mind.
+[13:11] <LukeHopkins> alright.
+[13:11] <walterbender> I have a complex project, Music Blocks, written in JavaScript and hosted on github,io
+[13:12] <walterbender> I run TravisCS for unit tests but don't actually have any tests written.
+[13:12] <walterbender> I am not wedded to TravisCS, but the framework is in place.
+[13:13] <walterbender> What I'd like it for you guys to get some unit tests up and running and document the process for others to add additional tests.
+[13:13] <walterbender> what I am most concerned with is changes that impact performance, as with music, timing is everything :P
+[13:13] <LukeHopkins> Okay, so you're using it as a Continous Version System on top of GitHub? Jenkins was another one I've heard of, but that will work too.
+[13:14] <walterbender> As I said, I am not wedded to any one system.
+[13:14] <walterbender> A FOSS solution, of course, is preferred
+[13:14] <walterbender> maybe the first thing you guys could do is a quick survey of what's out there?
+[13:15] <walterbender> You may need to consider the frameworks I use: tone.js for the web audio interface and easel.js for the graphics toolkit
+[13:15] <walterbender> everything else is pretty vanilla JS/HTML/CSS
+[13:15] <walterbender> I try to stay away from packages as much as I can
+[13:15] <LukeHopkins> That sounds within our scope. As for the survey, we can take a look and see what's available.
+[13:15] <walterbender> +1
+[13:16] <LukeHopkins> Also, just for my understanding this music fits under Midi, or is it something else entirely?
+[13:16] <walterbender> there are a few Sugar Labs projects using TravisCS, but I have not looked closely at the implementation
+[13:16] <walterbender> Not MIDI
+[13:16] <walterbender> web audio
+[13:17] <walterbender> check out tone.js
+[13:17] <walterbender> https://tonejs.github.io/
+[13:17] <LukeHopkins> alright.
+[13:18] <walterbender> I do have a MIDI output mechanism through something called Lilypond, but that is not the primary use case
+[13:18] <LukeHopkins> Also, do you have a current GitHub respository up in Sugar or is this still on your end?
+[13:18] <walterbender> I will be moving the project to gh.c/sugarlabs soon, but right now, it is still under gh.c/walterbender
+[13:19] <walterbender> It is gated on getting our new server running
+[13:19] <walterbender> so the repo you'd be working with is https://github.com/walterbender/musicblocks
+[13:21] <walterbender> https://docs.travis-ci.com/user/getting-started/ may be of use
+[13:21] <LukeHopkins> Okay.
+[13:22] <LukeHopkins> Do you have any other requirements you can think of at the moment that may apply?
+[13:22] <walterbender> nope.
+[13:22] <walterbender> just, if you do this, communication is critical
+[13:23] <walterbender> don't get stuck down ratholes... ask questions early and often
+[13:23] <walterbender> there are lots of knowledgeable people in the Sugar community, so leverage that
+[13:24] <LukeHopkins> Alright. So what is a good time(s) to discuss with you during the week and upcoming weeks?
+[13:24] <LukeHopkins> Assuming your western standard time.
+[13:24] <LukeHopkins> Assuming you're western standard time.
+[13:24] <walterbender> I'm generally around... my early mornings are busy, but that is too early for you anyway
+[13:25] <walterbender> I am usually eating dinner around 8PM EST
+[13:25] <walterbender> but we can always schedule something by email
+[13:25] <walterbender> I am EST
+[13:25] <walterbender> Boston
+[13:28] <LukeHopkins> Thanks for the clarification. I'll speak it over with my group at class tonight.
+[13:28] <walterbender> OK
+[13:28] <walterbender> stay in touch
+[13:29] <LukeHopkins> Will do.
+[13:30] <LukeHopkins> I'm heading off. Have a good afternoon, Walter. Thanks again.

@@ -1,0 +1,89 @@
+# [How to pull request in MediaWIki](https://www.mediawiki.org/wiki/Gerrit/Tutorial)
+Cd to `~/.ssh`
+```
+cd .ssh
+```
+Create ssh key (pass any)
+```
+ssh-keygen -t rsa -C "your_email@youremail.com"
+```
+Copy ssh key
+```
+cat /home/<local-user>/.ssh/id_rsa.pub
+```
+Create an account at [`wikitech.wikimedia.org`](https://wikitech.wikimedia.org/wiki/Special:UserLogin/signup) if you do not yet have one.
+Log into the [web interface for gerrit](https://gerrit.wikimedia.org/). Add ssh key here [gerrit.wikimedia.org](https://gerrit.wikimedia.org/r/#/settings/ssh-keys).
+Each time (when you need do pull request) after logout you need to do
+```
+eval `ssh-agent`
+ssh-add .ssh/id_rsa
+```
+Install git-review
+```
+git review -s
+```
+Clone extension, make changes, watch diff
+```
+git diff
+```
+Status
+```
+git status
+```
+Add file
+```
+git add Example/Example.body.php
+```
+Commit (editor will be opened)
+```
+git commit
+```
+Push to gerrit
+```
+git review -R
+```
+Or if this not work run 
+```
+git review -vnR REL1_23
+```
+This will not send any info on gerrit, but in the end off this will be
+```
+Using local branch name "REL1_23" for the topic of the change submitted
+Please use the following command to send your commits to review:
+    git push gerrit HEAD:refs/publish/REL1_23
+```
+So this command will push exactly at branch `REL1_23`. If, when you run this command, you see
+```
+ ! [remote rejected] HEAD -> refs/publish/REL1_23 (no new changes)
+```
+than you need [`revert commit`](https://gist.github.com/1v/a9f1417d40bae5c8b9d4#for-next-updates-from-git) and recommit again.
+## Make changes in request
+In url of request copy id (`123456`) `https://gerrit.wikimedia.org/r/#/c/123456/2` and paste here
+```
+git review -d 123456
+```
+This will `rebase` to request specified branch and print something like
+```
+Downloading refs/changes/80/123456/1 from gerrit
+Branch already exists - reusing
+Switched to branch "review/user/bug/54321"
+```
+You will need `refs/changes/80/123456`. Make changes, add file
+```
+git add Example/Example.body.php
+```
+Commit (save massege without changes by CTRL+X)
+```
+git commit --amend
+```
+Push changes (without patch number in the end: **refs/changes/80/123456**<s>/1</s>)
+```
+git push gerrit HEAD:refs/changes/80/123456
+```
+Thats all.
+## Links
+* [`mediawiki.org/wiki/Gerrit/Tutorial`](https://www.mediawiki.org/wiki/Gerrit/Tutorial)
+* [`MediaWiki Git Installation`](https://gist.github.com/1v/a9f1417d40bae5c8b9d4)
+* [`gerrit.wikimedia.org`](https://gerrit.wikimedia.org/)
+* [`mediawiki/core.git`](https://git.wikimedia.org/summary/?r=mediawiki/core.git)
+

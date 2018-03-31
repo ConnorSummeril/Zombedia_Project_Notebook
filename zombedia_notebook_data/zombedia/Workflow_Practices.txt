@@ -1,0 +1,7 @@
+-When tracking issues online and in RedMine, add a link to those issues in the RedMine issue.
+-In order to adhere to the Agile Scrum methodology, create acceptance criteria as a sub task to a greater sprint task.
+-No task should be done unless it is actually present in RedMine.
+-At the end of a given sprint, the Product Owner is responsible for facilitating the Sprint Review.
+-The Scrum Master facilitates stand up meetings every time the group meets.
+-The format for a standup meeting is as follows: Each member does the following; say what was done, say what is going to be done, say what roadblocks : At the end of the stand up the entire group addresses general concerns and questions.
+

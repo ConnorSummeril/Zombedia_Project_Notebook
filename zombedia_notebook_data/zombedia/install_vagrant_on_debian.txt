@@ -1,0 +1,39 @@
+0.Install the nfs kernel server:
+apt install nfs-kernel-server
+
+1. Start by going here:
+https://www.vagrantup.com/downloads.html
+Download the "Debian" version.
+
+2. Find that download (.deb file) and execute to install the vagrant tool:
+dpkg -i /path/to/deb/file
+
+3. Modify your apt sources file. This file is located at /etc/apt/sources.list.
+Append the following line to that file:
+deb http://ftp.debian.org/debian stretch-backports main contrib non-free
+
+4. Now run:
+apt update && apt install virtualbox
+
+5. Get the Vagrant OS source with the following command:
+git clone --recursive https://gerrit.wikimedia.org/r/mediawiki/vagrant
+
+6. Then go to that directory:
+cd vagrant
+
+7. Run:
+./setup.sh
+
+8. You will be prompted to sign in with Gerrit or Git, I just put in "anonymous" that's the easiest way.
+
+9. Finally after the setup, build the virtual machine:
+vagrant up
+
+10. To install mathoid:
+vagrant enable-role mathoid && vagrant provision
+
+11. vagrant provision can hang on the following line:
+Info: /Stage[main]/Mathoid/Service::Node[mathoid]/Systemd::Service[mathoid]/Service[mathoid]: Unscheduling refresh on Service[mathoid]
+If that happens, hit ctrl+c twice and run "vagrant provision" again.
+
+12. Profit

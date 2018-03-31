@@ -1,0 +1,3 @@
+To start the wiki:
+
+tiddlywiki zombedia_notebook --server

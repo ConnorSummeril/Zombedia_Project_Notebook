@@ -1,0 +1,7 @@
+1. Install git in Ubuntu
+2. clone github repository
+3. Install packages libgtk2.0-dev, libconf2-dev, gtk+-3.0, gconf-2.0
+4. run autogen.sh file
+5. make
+6. sudo make install
+

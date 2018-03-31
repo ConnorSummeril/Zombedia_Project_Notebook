@@ -1,0 +1,40 @@
+2/20
+
+Notebook entry
+Did following task:
+Held meeting and discussed the following tasks:
+Next week presentation - Book??
+
+Organizing:
+    - artifacts
+    - In our notebook: tie up sugar labs
+    - How or why do things? documentation focusing
+    Solution:
+        - Create shared project notebook. Document why we made decisions.
+            - Shared notebook linked in Wiki section of Redmine
+        
+Fix Redmine
+    - log time
+    - Nothing in Slack
+    - Empty Wiki---Who are we, what are we doing?
+    Solution:
+        - Use slack less and do more in Redmine.
+        - Anything we spend time on should be added to notebook in Redmine. Whether it leads to anything or not.
+Sprint planning
+    - Task allocation
+        - Rotate Organizer: CJ takes next sprint. (Maybe CJ stays Scrum master and organizer entire time.)
+        
+    - Backlog
+        - Need to: Organize sprint in Redmine.
+        - Estimating priority
+        - Choosing an issue in Phab: Why did you choose it? What stakeholders and what reasons?
+        - Need to create backlog
+        User Stories
+            - Need acceptance criteria in each issue
+            - Estimate time
+            - Assign person
+        - Backlog contains all info related to sprint about to start.
+        
+    - Teams
+        - Need to split up tasks and allocate in Redmine
+        - Scrum master

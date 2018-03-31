@@ -1,0 +1,33 @@
+Wikimedia apps Users
+-As a user, I want easy accessibility to the information available in Wikimedia apps and tools.
+-As a user, I want my screen reader to be able to pick up details on buttons, images, and text on the page. 
+-As a user, I want the text on wikimedia apps to be readable so I won’t have trouble accessing the information on the apps and modules offered by wikimedia.
+-As a user, I want keyboard accessibility so I’m not restricted to mouse controls.
+-As a child, I want to have fun so that I'm engaged in learning.
+-As a student, I want to get an overview of the topic before I do research on it.
+-As a student, I want to verify my knowledge of the topic from books and lectures coincide to how most other people understand it.
+
+Maintainers
+-As a maintainer I want proper documentation so that contributors have an easier time developing.
+-As a maintainer, I want to be notified if a change causes a test to fail.
+-As a maintainer, I want a clear log of all the changes that are being made to the repository.
+
+Developers
+-As a developer, I want to use this platform to help get my stakeholders changes immediately.
+-As a developer, I want to continue to make contributions to this FOSS project.
+-As a developer, I want to perform regression testing so I know the product still functions properly after our changes
+-As a developer, I want proper test coverage so I can identify issues easier.
+-As a developer, I want notifications on tests so I know what the results of the test are.
+
+Our Classmates
+-As a classmate, I want to learn valuable information from Zombedia so I know more about FOSS going forward.
+
+Jody
+-As Jody, I want to see learning and growth from Zombedia so they can take value from this course.
+
+Ourselves
+-As a member of the Zombedia team, I want experience on FOSS so that I learn more about software development in general.
+
+Investors
+-As an investor I want a valuable product so that my charity will be valuable to the users.
+

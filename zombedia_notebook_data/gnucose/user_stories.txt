@@ -1,0 +1,30 @@
+-Sugar Desktop Users (adults children)
+    -As an adult user, I want easy deployment to my children so I can focus on teaching material not technical problems.
+    -As a child, I want to have fun so that I'm engaged in learning.
+
+-Educators
+    -As an educator I want a teaching environment so I do not have to write an additional curriculum.
+    -As an educator, I want a helpful learning supplement that helps get kids tie together education and computers.
+    -As an educator, I want all the modules available in Sugarlabs to come with a description explaining how to use them.
+
+-Maintainers
+   -As a maintainer I want proper documentation so that contributors have an easier time developing.
+   -As a maintainer, I want to be notified if a change causes a test to fail.
+   -As a maintainer, I want a clear log of all the changes that are being made to the repository.
+
+-Developers
+    -As a developer, I want proper test coverage so I can identify issues easier.
+    -As a developer, I want notifications on tests so I know what the results of the test are.
+
+-Our Classmates
+    -As a classmate, I want to learn valuable information from GNUcose so I know more about FOSS going forward.
+
+-Jody
+    -As Jody, I want to see learning and growth from GNUcose so they can take value from this course.
+
+-Ourselves
+    -As a member of the GNUcose team, I want experience on FOSS so that I learn more about software development in general.
+
+-Investors
+    -As an investor I want a valuable product so that my charity will be valuable to the users.
+

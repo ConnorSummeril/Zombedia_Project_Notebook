@@ -1,0 +1,39 @@
+-first install Python https://www.python.org/downloads/ and pip https://pip.pypa.io/en/stable/installing/.
+
+-The type in your command line, "pip install pytest."
+
+-Save the following text to "test_sample.py"
+
+def inc(x):
+    return x + 1
+
+def test_answer():
+    assert inc(3) == 4
+
+def test_foobar():
+    assert 'foo' in 'foobar'
+
+-execute that file with "pytest test_sample.py"
+
+-Then do a "pip install unittest"
+
+-Save the following text to "pyunit_sample.py"
+
+import unittest
+
+def increment(number):
+    return number + 1
+
+class Tests(unittest.TestCase):
+    def test_increment(self):
+        self.assertEqual(increment(2), 3)
+        
+    def test_foobar(self):
+        self.assertIn('foo', 'foobar')
+    
+if __name__ == '__main__':
+    unittest.main()
+
+-Then execute "python pyunit_sample.py"
+
+Both of these tests do the same thing, but have a different way of doing it!
