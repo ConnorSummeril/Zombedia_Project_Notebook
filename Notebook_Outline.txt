@@ -9,13 +9,13 @@ CJ Summeril
 
 ALL OF THE FOLLOWING FILES MENTIONED ARE IN THE GNUCOSE DIRECTORY.
 
-Sugar Labs was chosen for our group. We decided to call ourselves "GNUcose" to further accentuate our desire to work on this project. We were interestec because the website for Sugar Labs was very well formatted and seemed like the project was in a very stable state.
+Sugar Labs was chosen for our group. We decided to call ourselves "GNUcose" to further accentuate our desire to work on this project. We were interested because the website for Sugar Labs was very well formatted and seemed like the project was in a very stable state.
 
 We did some initial investigation into SugarLabs. Luke Hopkins was the first of us to coordinate with a representative (Walter Bender) from SugarLabs. Walter Bender pointed us towards a music application for the GNU/Linux desktop "Sugar". This application was called "Music Blocks".
 
 <Walter_Bender_IRC_Transcript.html>
 
-While all of this was going on, we decided to talk about what we were doing and how to continue with contribuition to the SugarLabs project. The following docuements reflect what we discussed and decided.
+While all of this was going on, we decided to talk about what we were doing and how to continue with contribution to the SugarLabs project. The following documents reflect what we discussed and decided.
 
 <meeting_notes_2018-1-30.txt>
 <meeting_notes_2018-2-1.txt>
@@ -28,17 +28,17 @@ At this time, we were very confused as a team. Walter Bender promised that this 
 <intro_to_python.txt>
 
 
- CJ Summeril decided to investiage and contact another major contributor to the Sugar Labs project (James Cameron). In asking about the state of the Sugar project, James gave the team some very useful information as a transcript from his e-mail shows.
+ CJ Summeril decided to investigate and contact another major contributor to the Sugar Labs project (James Cameron). In asking about the state of the Sugar project, James gave the team some very useful information as a transcript from his e-mail shows.
 
 <James_Cameron_Transcript.txt>
 
-This information validated many things that the team had been feeling. The Sugar Labs project was in a state of disarray. It would not be easy to contribute anything that was meaningful to our prospective stakeholders. So, the team decided to move to a new project. Initially, this was Mozilla. However, after some investigation into the scope of the project, the team decided to move to WikiMedia. The following docuements demonstrate our thought process.
+This information validated many things that the team had been feeling. The Sugar Labs project was in a state of disarray. It would not be easy to contribute anything that was meaningful to our prospective stakeholders. So, the team decided to move to a new project. Initially, this was Mozilla. However, after some investigation into the scope of the project, the team decided to move to WikiMedia. The following documents demonstrate our thought process.
 
 <gnucose/user_stories.txt>
 <Presentation_1.pptx>
 <group_presentation_reflection_1>
 
-The team realized that we were not actually following the Agile Scrum model while claiming to follow it. In order to resolve this discrepency, we decided to create roles in the team as shown by our following meeting notes.
+The team realized that we were not actually following the Agile Scrum model while claiming to follow it. In order to resolve this discrepancy, we decided to create roles in the team as shown by our following meeting notes.
 
 <meeting_notes_2018-1-20.txt>
 
@@ -48,7 +48,7 @@ The team also came up with a better workflow process for RedMine and adhered to 
 
 <Workflow_Practices.txt>
 
-The team also created several artifacts to begin our next project with WikiMedia. These included user stories, contribution efforts, and envrionment setup.
+The team also created several artifacts to begin our next project with WikiMedia. These included user stories, contribution efforts, and environment setup.
 
 <User_Stories.txt>
 <Git_Pull_Request_With_Gerrit.txt>
