@@ -1,0 +1,63 @@
+This is the Zombedia Project Notebook format document. Plain text (other than this heading) is considered to be text that will be rendered in the final version of the project notebook. Text that is surrounded by "<>" characters will be considered as files that are present in the Zombedia_Project_Notebook repository.
+
+Group Members:
+Luke Hopkins
+Holly Radcliffe
+Steve Bapple
+Manoj Vasa
+CJ Summeril
+
+ALL OF THE FOLLOWING FILES MENTIONED ARE IN THE GNUCOSE DIRECTORY.
+
+Sugar Labs was chosen for our group. We decided to call ourselves "GNUcose" to further accentuate our desire to work on this project. We were interestec because the website for Sugar Labs was very well formatted and seemed like the project was in a very stable state.
+
+We did some initial investigation into SugarLabs. Luke Hopkins was the first of us to coordinate with a representative (Walter Bender) from SugarLabs. Walter Bender pointed us towards a music application for the GNU/Linux desktop "Sugar". This application was called "Music Blocks".
+
+<Walter_Bender_IRC_Transcript.html>
+
+While all of this was going on, we decided to talk about what we were doing and how to continue with contribuition to the SugarLabs project. The following docuements reflect what we discussed and decided.
+
+<meeting_notes_2018-1-30.txt>
+<meeting_notes_2018-2-1.txt>
+<meeting_notes_2018-2-15.txt>
+
+At this time, we were very confused as a team. Walter Bender promised that this project was a major contribution to the SugarLabs project. However, it seemed like it was a pet project as Holly Radcliffe pointed out. Furthermore, Walter Bender was not extremely helpful or polite in his coordination with our team as evidenced by the IRC transcript. Our team investigated several things on many fronts to figure out how to successfully contribute to sugar labs as shown by the following documents.
+
+<sugar_build_process.txt>
+<listofhelpfulwebsites.rtf>
+<intro_to_python.txt>
+
+
+ CJ Summeril decided to investiage and contact another major contributor to the Sugar Labs project (James Cameron). In asking about the state of the Sugar project, James gave the team some very useful information as a transcript from his e-mail shows.
+
+<James_Cameron_Transcript.txt>
+
+This information validated many things that the team had been feeling. The Sugar Labs project was in a state of disarray. It would not be easy to contribute anything that was meaningful to our prospective stakeholders. So, the team decided to move to a new project. Initially, this was Mozilla. However, after some investigation into the scope of the project, the team decided to move to WikiMedia. The following docuements demonstrate our thought process.
+
+<gnucose/user_stories.txt>
+<Presentation_1.pptx>
+<group_presentation_reflection_1>
+
+The team realized that we were not actually following the Agile Scrum model while claiming to follow it. In order to resolve this discrepency, we decided to create roles in the team as shown by our following meeting notes.
+
+<meeting_notes_2018-1-20.txt>
+
+ALL OF THE FOLLOWING FILES MENTIONED ARE IN THE ZOMBEDIA DIRECTORY.
+
+The team also came up with a better workflow process for RedMine and adhered to it.
+
+<Workflow_Practices.txt>
+
+The team also created several artifacts to begin our next project with WikiMedia. These included user stories, contribution efforts, and envrionment setup.
+
+<User_Stories.txt>
+<Git_Pull_Request_With_Gerrit.txt>
+<install_vagrant_on_debian.txt>
+<Project_Goals.txt>
+
+Throughout this project, we have learned many things that we though would be valuable to our classmates and instructor. So, we created a presentation brainstorming document to keep all of these ideas.
+
+<Presentation Brainstorming.pdf>
+
+We will continue to add artifacts and our presentations to this document.
+
