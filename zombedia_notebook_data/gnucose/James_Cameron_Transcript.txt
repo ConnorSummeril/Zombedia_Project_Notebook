@@ -1,0 +1,42 @@
+G'day Connor,
+
+Nice to hear from you.  I'm in the Sydney, Australia timezone.
+
+Sugar Labs is a community in transition after some developers left.
+
+Sugar Labs has begun to split into three development focal points; the
+Sugar desktop and apps (Python, GTK, GStreamer), the Sugarizer app
+(JavaScript), and the Music Blocks app (JavaScript).
+
+These focal points are driven by individuals; myself, Lionel Laske,
+and Walter Bender.  We make the most commits and reviews.
+
+In the past year, Sugar Labs suffered from severe public disagreements
+on the mailing lists, which has led to us three concentrating more on
+our tasks, and consulting less publically.  Disagreements among us
+three are rare, as we have little in common in the way of goals.
+
+(I know where you are coming from.  Among other things, I've been
+firmware test engineer for OLPC, making sure system firmware, kernel
+and Sugar desktop have features sufficient for manufacturing test
+procedures of contract manufacturer in China.  That role has lessened,
+as our latest model only needs kernel and Sugar desktop features.)
+
+At Sugar Labs, every now and then automated tests or continuous
+integration is proposed, but nothing has stuck.
+
+I've done some scripted testing with xdotool and other tools, but this
+was mainly to detect memory leaks.
+
+We had a volunteer Daniel Narvaez who set up continuous integration
+with Fedora builds on which Sugar could be installed, but Daniel
+vanished without trace and the infrastructure has since rotted.
+
+Software test infrastructure is most valuable where change is
+underway; so you might evaluate the size of changes in the past few
+months to the various repositories.
+
+Disclosure statement; I'm paid by the hour for my work by OLPC Inc,
+and they use the Sugar desktop in their software offering to
+customers.
+
