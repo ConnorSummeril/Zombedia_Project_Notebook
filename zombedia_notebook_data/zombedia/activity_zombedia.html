@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+<title>Activity - Zombedia - Redmine for CS at MSU Denver</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="hxRevyoyHOaqsy9jOwMBEsiB7IIjT/jrrvIUTA0X4sv4GFJ4iZj+t1h2CAe+mnt01ioKRvXa0uhmYPHH4PCgEw==" />
+<link rel='shortcut icon' href='/redmine/favicon.ico' />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/jquery/jquery-ui-1.11.0.css" />
+<link rel="stylesheet" media="all" href="/redmine/themes/classic/stylesheets/application.css" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/responsive.css" />
+
+<script src="/redmine/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js"></script>
+<script src="/redmine/javascripts/application.js"></script>
+<script src="/redmine/javascripts/responsive.js"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="all" href="/redmine/plugin_assets/scrum/stylesheets/scrum.css" />
+<script src="/redmine/plugin_assets/scrum/javascripts/scrum.js"></script>
+<!-- page specific tags -->
+<link rel="alternate" type="application/atom+xml" title="ATOM" href="http://gouda.msudenver.edu/redmine/projects/zombedia/activity.atom?key=d2a43558df710db8c86e89da2eb295c7457b099d" />
+</head>
+<body class="theme-Classic project-zombedia controller-activities action-index">
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/redmine/projects/zombedia/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar ">
+                <a href="/redmine/users/175"><img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=80&amp;default=" width="80" height="80" /></a>
+            <a class="user active" href="/redmine/users/175">ConnorSummeril</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/redmine/my/account">My account</a></li>
+<li><a class="logout" rel="nofollow" data-method="post" href="/redmine/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/redmine/users/175">ConnorSummeril</a></div>
+    <ul><li><a class="home" href="/redmine/">Home</a></li>
+<li><a class="my-page" href="/redmine/my/page">My page</a></li>
+<li><a class="projects" href="/redmine/projects">Projects</a></li>
+<li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/redmine/projects/zombedia/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        
+        <label for='q'>
+          <a accesskey="4" href="/redmine/projects/zombedia/search">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <span class="jump-box-arrow"></span><select name="project_quick_jump_box" id="project_quick_jump_box" onchange="if (this.value != &#39;&#39;) { window.location = this.value; }"><option value=''>Jump to a project...</option><option value="" disabled="disabled">---</option><option value="/redmine/projects/gnucose?jump=activity">GNUcose</option><option value="/redmine/projects/zombedia?jump=activity" selected="selected">Zombedia</option></select>
+    </div>
+
+    <h1>Zombedia</h1>
+
+    <div id="main-menu">
+        <ul><li><a class="overview" href="/redmine/projects/zombedia">Overview</a></li>
+<li><a class="activity selected" href="/redmine/projects/zombedia/activity">Activity</a></li>
+<li><a class="sprint" href="/redmine/projects/zombedia/sprints">Sprint</a></li>
+<li><a class="product-backlog" href="/redmine/projects/zombedia/product_backlog">Backlog</a></li>
+<li><a class="issues" href="/redmine/projects/zombedia/issues">Issues</a></li>
+<li><a accesskey="7" class="new-issue" href="/redmine/projects/zombedia/issues/new">New issue</a></li>
+<li><a class="gantt" href="/redmine/projects/zombedia/issues/gantt">Gantt</a></li>
+<li><a class="calendar" href="/redmine/projects/zombedia/issues/calendar">Calendar</a></li>
+<li><a class="news" href="/redmine/projects/zombedia/news">News</a></li>
+<li><a class="documents" href="/redmine/projects/zombedia/documents">Documents</a></li>
+<li><a class="wiki" href="/redmine/projects/zombedia/wiki">Wiki</a></li>
+<li><a class="files" href="/redmine/projects/zombedia/files">Files</a></li>
+<li><a class="settings" href="/redmine/projects/zombedia/settings">Settings</a></li></ul>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+        <form action="/redmine/projects/zombedia/activity" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<h3>Activity</h3>
+<ul>
+  <li>
+    <input type="checkbox" name="show_issues" id="show_issues" value="1" checked="checked" />
+    <label for="show_issues">
+      <a href="/redmine/projects/zombedia/activity?show_issues=1">Issues</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_changesets" id="show_changesets" value="1" checked="checked" />
+    <label for="show_changesets">
+      <a href="/redmine/projects/zombedia/activity?show_changesets=1">Changesets</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_news" id="show_news" value="1" checked="checked" />
+    <label for="show_news">
+      <a href="/redmine/projects/zombedia/activity?show_news=1">News</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_documents" id="show_documents" value="1" checked="checked" />
+    <label for="show_documents">
+      <a href="/redmine/projects/zombedia/activity?show_documents=1">Documents</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_files" id="show_files" value="1" checked="checked" />
+    <label for="show_files">
+      <a href="/redmine/projects/zombedia/activity?show_files=1">Files</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_wiki_edits" id="show_wiki_edits" value="1" />
+    <label for="show_wiki_edits">
+      <a href="/redmine/projects/zombedia/activity?show_wiki_edits=1">Wiki edits</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_messages" id="show_messages" value="1" />
+    <label for="show_messages">
+      <a href="/redmine/projects/zombedia/activity?show_messages=1">Messages</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_time_entries" id="show_time_entries" value="1" />
+    <label for="show_time_entries">
+      <a href="/redmine/projects/zombedia/activity?show_time_entries=1">Spent time</a>
+    </label>
+  </li>
+</ul>
+
+<p><input type="submit" name="submit" value="Apply" class="button-small" /></p>
+</form>
+        
+    </div>
+
+    <div id="content">
+        
+        <h2>Activity</h2>
+<p class="subtitle">From 02/16/2018 to 04/16/2018</p>
+
+<div id="activity">
+<h3>04/15/2018</h3>
+<dl>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">08:12 PM</span>
+  
+  <a href="/redmine/issues/1032#change-3254">Goals #1032 (Closed): Wikimedia Users - Accessibility https://phabricator.wikimedia.org/T178398</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">08:10 PM</span>
+  
+  <a href="/redmine/issues/1003#change-3252">Goals #1003 (Closed): Stephen&#39;s Initial Project Investigation</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+</dl>
+<h3>04/14/2018</h3>
+<dl>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">02:45 PM</span>
+  
+  <a href="/redmine/issues/1005#change-3251">Goals #1005 (Closed): Manoj&#39;s Initial Project Investigation</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">02:33 PM</span>
+  
+  <a href="/redmine/issues/1031#change-3250">Goals #1031 (Closed): T186553</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">02:32 PM</span>
+  
+  <a href="/redmine/issues/1028#change-3249">Project/Process #1028 (Closed): Next Issue for Manoj and Luke</a>
+  </dt>
+  <dd class=""><span class="description">The original issue took longer than expected. This issue is not feasible in the time period. Closing this issue.</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">02:31 PM</span>
+  
+  <a href="/redmine/issues/1027#change-3248">Project/Process #1027 (Closed): T186553 - Manoj and Luke</a>
+  </dt>
+  <dd class=""><span class="description">Duplicate on a closed issue. Closing this as well.</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">02:28 PM</span>
+  
+  <a href="/redmine/issues/1006#change-3247">Goals #1006 (Closed): Luke&#39;s Initial Project Investigation on T186553</a>
+  </dt>
+  <dd class=""><span class="description">Duplicate of a closed issue. Closing this as well.</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">02:28 PM</span>
+  
+  <a href="/redmine/issues/1020#change-3246">Goals #1020 (Closed): Work on Accessibility Issue T186553</a>
+  </dt>
+  <dd class=""><span class="description">This is a duplicate to a closed issue, so closing it as well.</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">02:26 PM</span>
+  
+  <a href="/redmine/issues/1042#change-3245">Goals #1042 (Closed): T186553 - get regression test to complete</a>
+  </dt>
+  <dd class=""><span class="description">Manoj and I posted a solution on the post on Phabricator.<br />https://phabricator.wikimedia.org/T186553<br />With that don...</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+</dl>
+<h3>04/12/2018</h3>
+<dl>
+  <dt class="document  ">
+  
+  <span class="time">04:36 PM</span>
+  
+  <a href="/redmine/documents/131">Document: Project Notebook Repo</a>
+  </dt>
+  <dd class=""><span class="description">Repo for artifacts that need to be annotated.<br />https://github.com/ConnorSummeril/Zombedia_Project_Notebook</span>
+  <span class="author"></span></dd>
+  <dt class="document  ">
+  
+  <span class="time">06:12 PM</span>
+  
+  <a href="/redmine/documents/130">Document: Presentation 5 Link</a>
+  </dt>
+  <dd class=""><span class="description">https://docs.google.com/presentation/d/1ZoBLRE2vW_iepAt_hGuFWc6WbGlDNBZHssN7eS5RjDs/edit#slide=id.p15<br /></span>
+  <span class="author"></span></dd>
+</dl>
+<h3>04/08/2018</h3>
+<dl>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">09:23 PM</span>
+  
+  <a href="/redmine/issues/1040#change-3243">Goals #1040: Wikimedia Users - Accessibility https://phabricator.wikimedia.org/T178398</a>
+  </dt>
+  <dd class=""><span class="description">In order to implement change the following files need to be modified:<br />1. includes/parser/Parser.php<br />Starting on lin...</span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+  <dt class="issue-note grouped ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">09:19 PM</span>
+  
+  <a href="/redmine/issues/1040#change-3242">Goals #1040: Wikimedia Users - Accessibility https://phabricator.wikimedia.org/T178398</a>
+  </dt>
+  <dd class="grouped"><span class="description">All tests related to the parser are running and passing. However, there may be tests in other parts of the suite that...</span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+</dl>
+<h3>04/03/2018</h3>
+<dl>
+  <dt class="issue closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:32 PM</span>
+  
+  <a href="/redmine/issues/1042">Goals #1042 (Closed): T186553 - get regression test to complete</a>
+  </dt>
+  <dd class=""><span class="description">Get all .less files to compile.</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:53 PM</span>
+  
+  <a href="/redmine/issues/1039#change-3232">Goals #1039 (Closed): Acceptance Criteria: T186553 - Regression Test</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue-note grouped ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:50 PM</span>
+  
+  <a href="/redmine/issues/1039#change-3231">Goals #1039: Acceptance Criteria: T186553 - Regression Test</a>
+  </dt>
+  <dd class="grouped"><span class="description">Compiled the .less files that needed to be changed. Came across errors where files weren&#39;t found. </span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:52 PM</span>
+  
+  <a href="/redmine/issues/1040">Goals #1040 (New): Wikimedia Users - Accessibility https://phabricator.wikimedia.org/T178398</a>
+  </dt>
+  <dd class=""><span class="description">As a wikimedia user employing a screen reader, I want main content to be enclosed by a &lt;main&gt; tag instead of a &lt;div&gt; ...</span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+  <dt class="issue-edit  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:47 PM</span>
+  
+  <a href="/redmine/issues/1032#change-3229">Goals #1032 (Resolved): Wikimedia Users - Accessibility https://phabricator.wikimedia.org/T178398</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+</dl>
+<h3>04/02/2018</h3>
+<dl>
+  <dt class="document  ">
+  
+  <span class="time">08:46 PM</span>
+  
+  <a href="/redmine/documents/129">Document: Project Notebook Link</a>
+  </dt>
+  <dd class=""><span class="description">Here is the link for the in progress project notebook.<br />https://docs.google.com/document/d/1fAuDcz-nXSR-CZaLWxXi_-f...</span>
+  <span class="author"></span></dd>
+</dl>
+<h3>04/01/2018</h3>
+<dl>
+  <dt class="issue-edit  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">09:33 PM</span>
+  
+  <a href="/redmine/issues/1031#change-3224">Goals #1031 (In Progress): T186553</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+</dl>
+<h3>03/31/2018</h3>
+<dl>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:42 PM</span>
+  
+  <a href="/redmine/issues/1039#change-3223">Goals #1039: Acceptance Criteria: T186553 - Regression Test</a>
+  </dt>
+  <dd class=""><span class="description">Luke Hopkins wrote:<br />&gt; Do regression testing in the terminal with PHPUnit and on XAMPP.<br />https://phabricator.wikime...</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+</dl>
+<h3>03/28/2018</h3>
+<dl>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:12 PM</span>
+  
+  <a href="/redmine/issues/1032#change-3222">Goals #1032: Wikimedia Users - Accessibility https://phabricator.wikimedia.org/T178398</a>
+  </dt>
+  <dd class=""><span class="description">Issue seems to be located at lines 485-490 in parser.php</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+</dl>
+<h3>03/27/2018</h3>
+<dl>
+  <dt class="issue closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:23 PM</span>
+  
+  <a href="/redmine/issues/1039">Goals #1039 (Closed): Acceptance Criteria: T186553 - Regression Test</a>
+  </dt>
+  <dd class=""><span class="description">Do regression testing in the terminal with PHPUnit and on XAMPP.</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:21 PM</span>
+  
+  <a href="/redmine/issues/1037">Goals #1037 (In Progress): Create a Design for the Project Notebook</a>
+  </dt>
+  <dd class=""><span class="description">Given the artifacts from all group work so far, create a format or map for how all the artifacts will be presented.<br />...</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:15 PM</span>
+  
+  <a href="/redmine/issues/1034">Goals #1034 (In Progress): Work on Project Notebook</a>
+  </dt>
+  <dd class=""><span class="description">This task is finding a new format or figuring out how to set up a static representation of an existing TiddlyWiki.<br />A...</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+</dl>
+<h3>03/15/2018</h3>
+<dl>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:57 PM</span>
+  
+  <a href="/redmine/issues/1031#change-3218">Goals #1031: T186553</a>
+  </dt>
+  <dd class=""><span class="description">This issue is assigned to both Luke and Manoj</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue closed grouped ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:50 PM</span>
+  
+  <a href="/redmine/issues/1031">Goals #1031 (Closed): T186553</a>
+  </dt>
+  <dd class="grouped"><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue-closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:54 PM</span>
+  
+  <a href="/redmine/issues/1033#change-3216">Goals #1033 (Closed): stuff</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:53 PM</span>
+  
+  <a href="/redmine/issues/1033">Goals #1033 (Closed): stuff</a>
+  </dt>
+  <dd class="grouped"><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:50 PM</span>
+  
+  <a href="/redmine/issues/1032">Goals #1032 (Closed): Wikimedia Users - Accessibility https://phabricator.wikimedia.org/T178398</a>
+  </dt>
+  <dd class=""><span class="description">As a wikimedia user employing a screen reader, I want main content to be enclosed by a &lt;main&gt; tag instead of a &lt;div&gt; ...</span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-edit  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:42 PM</span>
+  
+  <a href="/redmine/issues/1027#change-3201">Project/Process #1027 (In Progress): T186553 - Manoj and Luke</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">10:14 PM</span>
+  
+  <a href="/redmine/issues/1029">Goals #1029 (New): Create the Project Notebook in WikiMedia Format</a>
+  </dt>
+  <dd class=""><span class="description">This task is to create a project notebook using WikiMedia tools.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+</dl>
+<h3>03/13/2018</h3>
+<dl>
+  <dt class="issue closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:44 PM</span>
+  
+  <a href="/redmine/issues/1028">Project/Process #1028 (Closed): Next Issue for Manoj and Luke</a>
+  </dt>
+  <dd class=""><span class="description">Choose, Research, submit change, and Close next Phrahactor issue.</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:30 PM</span>
+  
+  <a href="/redmine/issues/1027">Project/Process #1027 (Closed): T186553 - Manoj and Luke</a>
+  </dt>
+  <dd class=""><span class="description">https://phabricator.wikimedia.org/T186553</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue-edit  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:03 PM</span>
+  
+  <a href="/redmine/issues/1003#change-3196">Goals #1003 (In Progress): Stephen&#39;s Initial Project Investigation</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-closed grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:59 PM</span>
+  
+  <a href="/redmine/issues/1003#change-3193">Goals #1003 (Closed): Stephen&#39;s Initial Project Investigation</a>
+  </dt>
+  <dd class="grouped"><span class="description">This issue will be closed because it was part of the initial sprint planning.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:01 PM</span>
+  
+  <a href="/redmine/issues/1021#change-3195">Goals #1021 (Closed): Make the Zombedia Project in Redmine Entry Point Ready</a>
+  </dt>
+  <dd class=""><span class="description">Holly and Stephen made adjustments to the opening page so it is entry point ready.<br />CJ updated the Wiki.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:59 PM</span>
+  
+  <a href="/redmine/issues/1004#change-3192">Goals #1004 (Closed): Holly&#39;s Initial Project Investigation</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-note grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:57 PM</span>
+  
+  <a href="/redmine/issues/1004#change-3188">Goals #1004: Holly&#39;s Initial Project Investigation</a>
+  </dt>
+  <dd class="grouped"><span class="description">A patch was put up so this issue should no longer be investigated.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:58 PM</span>
+  
+  <a href="/redmine/issues/1012#change-3191">Goals #1012 (Closed): Accessibility issue T156450</a>
+  </dt>
+  <dd class=""><span class="description">Patch was submitted for review</span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-note  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:58 PM</span>
+  
+  <a href="/redmine/issues/1005#change-3190">Goals #1005: Manoj&#39;s Initial Project Investigation</a>
+  </dt>
+  <dd class=""><span class="description">More needs to be investigated this will be taken to the next sprint.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:58 PM</span>
+  
+  <a href="/redmine/issues/991#change-3189">Project/Process #991 (Closed): Find a Specific Accesibility Issue to Work on in Wikimedia.</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-note  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:56 PM</span>
+  
+  <a href="/redmine/issues/1006#change-3187">Goals #1006: Luke&#39;s Initial Project Investigation on T186553</a>
+  </dt>
+  <dd class=""><span class="description">Much more research to be done on the issue itself. Should investigate for another week and reassess then.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-note grouped ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">09:01 PM</span>
+  
+  <a href="/redmine/issues/1006#change-3185">Goals #1006: Luke&#39;s Initial Project Investigation on T186553</a>
+  </dt>
+  <dd class="grouped"><span class="description">My conclusion at this point is that the css code needs to be pre-generated using the /Resource/Resource.php file. Thi...</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">03:55 PM</span>
+  
+  <a href="/redmine/issues/1020#change-3186">Goals #1020: Work on Accessibility Issue T186553</a>
+  </dt>
+  <dd class=""><span class="description">https://github.com/wikimedia/mediawiki/tree/master/resources/lib/oojs-ui/themes/wikimediaui/images/icons<br />This is w...</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+</dl>
+<h3>03/11/2018</h3>
+<dl>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">10:01 PM</span>
+  
+  <a href="/redmine/issues/1020#change-3184">Goals #1020: Work on Accessibility Issue T186553</a>
+  </dt>
+  <dd class=""><span class="description">Luke and I worked together to set the styles for the badge so it is outlined by a blue border when navigating the pag...</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+</dl>
+<h3>03/09/2018</h3>
+<dl>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:32 PM</span>
+  
+  <a href="/redmine/issues/1024#change-3182">Defect #1024 (Closed): OVERHEAD Presentation Planning for Presentation 2</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue closed grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:23 PM</span>
+  
+  <a href="/redmine/issues/1024">Defect #1024 (Closed): OVERHEAD Presentation Planning for Presentation 2</a>
+  </dt>
+  <dd class="grouped"><span class="description">We all met and planned our presentation, blocking time, and giving feedback.<br /></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:30 PM</span>
+  
+  <a href="/redmine/issues/1023#change-3181">Defect #1023 (Closed): OVERHEAD Presentation Planning for Presentation 2</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue closed grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:23 PM</span>
+  
+  <a href="/redmine/issues/1023">Defect #1023 (Closed): OVERHEAD Presentation Planning for Presentation 2</a>
+  </dt>
+  <dd class="grouped"><span class="description">We all met and planned our presentation, blocking time, and giving feedback.<br /></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:28 PM</span>
+  
+  <a href="/redmine/issues/1022#change-3180">Defect #1022 (Closed): OVERHEAD Presentation Planning for Presentation 2</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+  <dt class="issue-note grouped ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:27 PM</span>
+  
+  <a href="/redmine/issues/1022#change-3179">Defect #1022: OVERHEAD Presentation Planning for Presentation 2</a>
+  </dt>
+  <dd class="grouped"><span class="description">Brainstormed nuggets, improved nuggets, and selected the best nuggets for presentation with team. (2018-03-06)</span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+  <dt class="issue closed grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:22 PM</span>
+  
+  <a href="/redmine/issues/1022">Defect #1022 (Closed): OVERHEAD Presentation Planning for Presentation 2</a>
+  </dt>
+  <dd class="grouped"><span class="description">We all met and planned our presentation, blocking time, and giving feedback.<br /></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:27 PM</span>
+  
+  <a href="/redmine/issues/1025#change-3178">Defect #1025 (Closed): OVERHEAD Presentation Planning for Presentation 2</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue closed grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:23 PM</span>
+  
+  <a href="/redmine/issues/1025">Defect #1025 (Closed): OVERHEAD Presentation Planning for Presentation 2</a>
+  </dt>
+  <dd class="grouped"><span class="description">We all met and planned our presentation, blocking time, and giving feedback.<br /></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:26 PM</span>
+  
+  <a href="/redmine/issues/1026#change-3177">Defect #1026 (Closed): OVERHEAD Presentation Planning for Presentation 2</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:23 PM</span>
+  
+  <a href="/redmine/issues/1026">Defect #1026 (Closed): OVERHEAD Presentation Planning for Presentation 2</a>
+  </dt>
+  <dd class="grouped"><span class="description">We all met and planned our presentation, blocking time, and giving feedback.<br /></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+</dl>
+<h3>03/03/2018</h3>
+<dl>
+  <dt class="issue-note  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">07:36 AM</span>
+  
+  <a href="/redmine/issues/1021#change-3167">Goals #1021: Make the Zombedia Project in Redmine Entry Point Ready</a>
+  </dt>
+  <dd class=""><span class="description">Creating a formal page using the WikiMedia tools would be very useful.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">07:34 AM</span>
+  
+  <a href="/redmine/issues/1021">Goals #1021 (Closed): Make the Zombedia Project in Redmine Entry Point Ready</a>
+  </dt>
+  <dd class="grouped"><span class="description">-Update the Wiki to better reflect our goals and sources into the WikiMedia project.<br />-Update Overview and potentia...</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+</dl>
+<h3>03/02/2018</h3>
+<dl>
+  <dt class="document  ">
+  
+  <span class="time">05:08 PM</span>
+  
+  <a href="/redmine/documents/127">Document: Presentation #2 Brainstorming</a>
+  </dt>
+  <dd class=""><span class="description">https://docs.google.com/document/d/1H5zsEcQVV6s_4piiOJhWnIl4kH0VLTU8mlQ7bRldtNQ/edit?usp=sharing</span>
+  <span class="author"></span></dd>
+</dl>
+<h3>03/01/2018</h3>
+<dl>
+  <dt class="document  ">
+  
+  <span class="time">04:50 PM</span>
+  
+  <a href="/redmine/documents/126">Document: Pull Request in GitHub with Gerrit Request</a>
+  </dt>
+  <dd class=""><span class="description"># [How to pull request in MediaWIki](https://www.mediawiki.org/wiki/Gerrit/Tutorial)<br />Cd to `~/.ssh`<br />```<br />cd .ssh<br />`...</span>
+  <span class="author"></span></dd>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:49 PM</span>
+  
+  <a href="/redmine/issues/1020#change-3165">Goals #1020: Work on Accessibility Issue T186553</a>
+  </dt>
+  <dd class=""><span class="description">Moved issue 1000 to 1020. In this process I exported the hours as well. The hours moved to this issue from the delete...</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue-note grouped ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:41 PM</span>
+  
+  <a href="/redmine/issues/1020#change-3164">Goals #1020: Work on Accessibility Issue T186553</a>
+  </dt>
+  <dd class="grouped"><span class="description">Worked with Luke to assess how the attributes of the icon can be changed to provide more feedback to the user. We wer...</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue-edit grouped ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:39 PM</span>
+  
+  <a href="/redmine/issues/1020#change-3163">Goals #1020 (In Progress): Work on Accessibility Issue T186553</a>
+  </dt>
+  <dd class="grouped"><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue closed grouped ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:38 PM</span>
+  
+  <a href="/redmine/issues/1020">Goals #1020 (Closed): Work on Accessibility Issue T186553</a>
+  </dt>
+  <dd class="grouped"><span class="description">Manoj and Luke (for the present) will work on https://phabricator.wikimedia.org/T186553.</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:36 PM</span>
+  
+  <a href="/redmine/issues/1004#change-3160">Goals #1004: Holly&#39;s Initial Project Investigation</a>
+  </dt>
+  <dd class=""><span class="description">-Fixing overview and wiki to define our entry point.<br />-Find an issue to work on for the sprint.</span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-note  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:31 PM</span>
+  
+  <a href="/redmine/issues/1007#change-3155">Goals #1007: CJ&#39;s Initial project Investigation</a>
+  </dt>
+  <dd class=""><span class="description">-Add project entry<br />-Update Wiki<br />-Update Overview<br /></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-edit grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">10:28 PM</span>
+  
+  <a href="/redmine/issues/1007#change-3137">Goals #1007 (In Progress): CJ&#39;s Initial project Investigation</a>
+  </dt>
+  <dd class="grouped"><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:22 PM</span>
+  
+  <a href="/redmine/issues/1015">Goals #1015 (New): Work on issue T155883</a>
+  </dt>
+  <dd class=""><span class="description">Found at https://phabricator.wikimedia.org/T155883. Is an issue dealing with a flag button clicking and scrolls the p...</span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:21 PM</span>
+  
+  <a href="/redmine/issues/1012">Goals #1012 (Closed): Accessibility issue T156450</a>
+  </dt>
+  <dd class=""><span class="description">This issue is located at: https://phabricator.wikimedia.org/T156450. It was assigned to someone back on December who ...</span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:01 PM</span>
+  
+  <a href="/redmine/issues/1008#change-3149">Goals #1008 (Closed): Resolve all Items from Slack Channel to RedMine</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-edit grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">11:19 PM</span>
+  
+  <a href="/redmine/issues/1008#change-3145">Goals #1008 (Resolved): Resolve all Items from Slack Channel to RedMine</a>
+  </dt>
+  <dd class="grouped"><span class="description">I took all of the relevant documentation from our slack channel and placed it into the GNUcose project.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="attachment  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">11:08 PM</span>
+  
+  <a href="/redmine/attachments/download/377/install_vagrant.txt">install_vagrant.txt</a>
+  </dt>
+  <dd class=""><span class="description">This is a document detailing how to install the WikiMedia development tool Vagrant.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+</dl>
+<h3>02/28/2018</h3>
+<dl>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:20 PM</span>
+  
+  <a href="/redmine/issues/990#change-3130">Project/Process #990 (Closed): Find a Specific Accesibility Issue to Work on in Wikimedia.</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+  <dt class="issue-note grouped ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:20 PM</span>
+  
+  <a href="/redmine/issues/990#change-3129">Project/Process #990: Find a Specific Accesibility Issue to Work on in Wikimedia.</a>
+  </dt>
+  <dd class="grouped"><span class="description">Decided with team to add user story associated with issue to product backlog. <br />It fulfills our goals by:<br />- Improvin...</span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+</dl>
+<h3>02/27/2018</h3>
+<dl>
+  <dt class="issue-note  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:54 PM</span>
+  
+  <a href="/redmine/issues/1007#change-3125">Goals #1007: CJ&#39;s Initial project Investigation</a>
+  </dt>
+  <dd class=""><span class="description">Need to investigate how to use the sprint plugin tool for RedMine.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">07:53 PM</span>
+  
+  <a href="/redmine/issues/1007">Goals #1007 (In Progress): CJ&#39;s Initial project Investigation</a>
+  </dt>
+  <dd class="grouped"><span class="description">This is CJ&#39;s initial project investigation.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-note  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:42 PM</span>
+  
+  <a href="/redmine/issues/990#change-3123">Project/Process #990: Find a Specific Accesibility Issue to Work on in Wikimedia.</a>
+  </dt>
+  <dd class=""><span class="description">The issue seems like a very small source code change (changing a single tag).<br /></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:42 PM</span>
+  
+  <a href="/redmine/issues/992#change-3122">Defect #992 (Closed): Work on the Defined Issue in WikiMedia Mathoid</a>
+  </dt>
+  <dd class=""><span class="description">Mathoid problem was muc larger in scope than initially thought.</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue-note grouped ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:41 PM</span>
+  
+  <a href="/redmine/issues/992#change-3121">Defect #992: Work on the Defined Issue in WikiMedia Mathoid</a>
+  </dt>
+  <dd class="grouped"><span class="description">Mathoid problem was much larger in scope than initially thought.</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue-note  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:40 PM</span>
+  
+  <a href="/redmine/issues/993#change-3120">Defect #993: Work on the Defined Issue in WikiMedia Mathoid</a>
+  </dt>
+  <dd class=""><span class="description">The Mathoid problem defined was much larger in scope than initially thought. Time was spent discovering this and the ...</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:36 PM</span>
+  
+  <a href="/redmine/issues/1006#change-3118">Goals #1006: Luke&#39;s Initial Project Investigation on T186553</a>
+  </dt>
+  <dd class=""><span class="description">Linked to https://phabricator.wikimedia.org/T186553.</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="issue closed grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">07:53 PM</span>
+  
+  <a href="/redmine/issues/1006">Goals #1006 (Closed): Luke&#39;s Initial Project Investigation on T186553</a>
+  </dt>
+  <dd class="grouped"><span class="description">This is the placeholder for Luke&#39;s initial project investigation.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">08:02 PM</span>
+  
+  <a href="/redmine/issues/1008">Goals #1008 (Closed): Resolve all Items from Slack Channel to RedMine</a>
+  </dt>
+  <dd class=""><span class="description">Take all of our old documents from slack and put them in the old GNUcose project.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">07:52 PM</span>
+  
+  <a href="/redmine/issues/1005">Goals #1005 (Closed): Manoj&#39;s Initial Project Investigation</a>
+  </dt>
+  <dd class=""><span class="description">This is a placeholder for Manoj&#39;s initial project investigation.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">07:52 PM</span>
+  
+  <a href="/redmine/issues/1004">Goals #1004 (Closed): Holly&#39;s Initial Project Investigation</a>
+  </dt>
+  <dd class=""><span class="description">This is the placeholder for Holly&#39;s initial project investigation</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">07:51 PM</span>
+  
+  <a href="/redmine/issues/1003">Goals #1003 (Closed): Stephen&#39;s Initial Project Investigation</a>
+  </dt>
+  <dd class=""><span class="description">This is the blank field for Stephen&#39;s initial project investigation.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">07:47 PM</span>
+  
+  <a href="/redmine/issues/1002">Goals #1002 (In Progress): Resolve Issues in WikiMedia</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+</dl>
+<h3>02/26/2018</h3>
+<dl>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">10:51 AM</span>
+  
+  <a href="/redmine/issues/990#change-3109">Project/Process #990: Find a Specific Accesibility Issue to Work on in Wikimedia.</a>
+  </dt>
+  <dd class=""><span class="description">Looks promising:<br />https://phabricator.wikimedia.org/T178398<br />Potentially fulfills goals by improving accessibility to...</span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+  <dt class="document  ">
+  
+  <span class="time">09:33 AM</span>
+  
+  <a href="/redmine/documents/122">Document: Project Goals</a>
+  </dt>
+  <dd class=""><span class="description">The goals of this project and its contributors are as follows:<br />As students:<br />- Demonstrate knowledge of software e...</span>
+  <span class="author"></span></dd>
+</dl>
+<h3>02/25/2018</h3>
+<dl>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">08:57 PM</span>
+  
+  <a href="/redmine/issues/994#change-3106">Project/Process #994: Define the User Stories</a>
+  </dt>
+  <dd class=""><span class="description">Manoj has set up a Google Docs on the topic. He should email it to all of you. When its sufficiently agreed on betwee...</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+  <dt class="document  ">
+  
+  <span class="time">08:57 PM</span>
+  
+  <a href="/redmine/documents/121">Document: Stakeholders and User Stories</a>
+  </dt>
+  <dd class=""><span class="description">Wikimedia apps Users<br />-As a user, I want easy accessibility to the information available in Wikimedia apps and tools....</span>
+  <span class="author"></span></dd>
+</dl>
+<h3>02/24/2018</h3>
+<dl>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">03:58 PM</span>
+  
+  <a href="/redmine/issues/996#change-3104">Goals #996 (Closed): Stuff</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">03:58 PM</span>
+  
+  <a href="/redmine/issues/997#change-3103">Goals #997 (Closed): Stuff</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+</dl>
+<h3>02/23/2018</h3>
+<dl>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/0a109c62689884723536924c60d84628?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">03:01 PM</span>
+  
+  <a href="/redmine/issues/993#change-3097">Defect #993 (Closed): Work on the Defined Issue in WikiMedia Mathoid</a>
+  </dt>
+  <dd class=""><span class="description">Forwarded this issue to MathJax (MJX) Github, rescinded our claim on phabricator, and closing the issue here.</span>
+  <span class="author"><a class="user active" href="/redmine/users/149">Luke Hopkins</a></span></dd>
+</dl>
+<h3>02/22/2018</h3>
+<dl>
+  <dt class="issue closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:47 PM</span>
+  
+  <a href="/redmine/issues/996">Goals #996 (Closed): Stuff</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:47 PM</span>
+  
+  <a href="/redmine/issues/997">Goals #997 (Closed): Stuff</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="document  ">
+  
+  <span class="time">04:38 PM</span>
+  
+  <a href="/redmine/documents/120">Document: General Practices for WorkFlow</a>
+  </dt>
+  <dd class=""><span class="description">-When tracking issues online and in RedMine, add a link to those issues in the RedMine issue.<br />-In order to adhere to...</span>
+  <span class="author"></span></dd>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">02:27 PM</span>
+  
+  <a href="/redmine/issues/993#change-3096">Defect #993: Work on the Defined Issue in WikiMedia Mathoid</a>
+  </dt>
+  <dd class=""><span class="description">Issue number is actually:       T105315<br />Url to issue in phabricator:    https://phabricator.wikimedia.org/T105315<br /></span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue closed grouped me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">10:45 PM</span>
+  
+  <a href="/redmine/issues/993">Defect #993 (Closed): Work on the Defined Issue in WikiMedia Mathoid</a>
+  </dt>
+  <dd class="grouped"><span class="description">Work On accessibility issue T186553 in the Mathoid project. Determine whether it is possible or not.<br /></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">10:48 PM</span>
+  
+  <a href="/redmine/issues/995">Project/Process #995 (Closed): Create a Project Backog</a>
+  </dt>
+  <dd class=""><span class="description">To work within the Scrum Agile methodology, a product backlog must be created.<br /></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">10:47 PM</span>
+  
+  <a href="/redmine/issues/994">Project/Process #994 (New): Define the User Stories</a>
+  </dt>
+  <dd class=""><span class="description">The purpose of this issue is to create real user stories for all stakeholders. This includes our class, our instructo...</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">10:45 PM</span>
+  
+  <a href="/redmine/issues/992">Defect #992 (Closed): Work on the Defined Issue in WikiMedia Mathoid</a>
+  </dt>
+  <dd class=""><span class="description">Work On accessibility issue T186553 in the Mathoid project. Determine whether it is possible or not.<br /></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">10:43 PM</span>
+  
+  <a href="/redmine/issues/991">Project/Process #991 (Closed): Find a Specific Accesibility Issue to Work on in Wikimedia.</a>
+  </dt>
+  <dd class=""><span class="description">Figure out a certain issue that can be worked on in WikiMedia. This can be any branch of WikiMedia, the main purpose ...</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="issue closed  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">10:42 PM</span>
+  
+  <a href="/redmine/issues/990">Project/Process #990 (Closed): Find a Specific Accesibility Issue to Work on in Wikimedia.</a>
+  </dt>
+  <dd class=""><span class="description">Figure out a certain issue that can be worked on in WikiMedia. This can be any branch of WikiMedia, the main purpose ...</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+</dl>
+</div>
+
+
+
+<div style="float:left;">
+<a title="From 12/18/2017 to 02/15/2018" accesskey="p" href="/redmine/projects/zombedia/activity?from=2018-02-15">« Previous</a>
+</div>
+<div style="float:right;">
+
+</div>
+&nbsp;
+<p class="other-formats">Also available in:  <span><a class="atom" rel="nofollow" href="/redmine/projects/zombedia/activity.atom?key=d2a43558df710db8c86e89da2eb295c7457b099d">Atom</a></span>
+</p>
+
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2016 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

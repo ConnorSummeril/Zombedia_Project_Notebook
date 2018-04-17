@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+<title>Activity - GNUcose - Redmine for CS at MSU Denver</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="WsiEjUmvK3gbMGewfe3yuDnLlmySM5kfarCycTaQuW8lxIhK6gXJKen1QNT4dIjeJ2BwqESmsxyiIlf623f7tw==" />
+<link rel='shortcut icon' href='/redmine/favicon.ico' />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/jquery/jquery-ui-1.11.0.css" />
+<link rel="stylesheet" media="all" href="/redmine/themes/classic/stylesheets/application.css" />
+<link rel="stylesheet" media="all" href="/redmine/stylesheets/responsive.css" />
+
+<script src="/redmine/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js"></script>
+<script src="/redmine/javascripts/application.js"></script>
+<script src="/redmine/javascripts/responsive.js"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="all" href="/redmine/plugin_assets/scrum/stylesheets/scrum.css" />
+<script src="/redmine/plugin_assets/scrum/javascripts/scrum.js"></script>
+<!-- page specific tags -->
+<link rel="alternate" type="application/atom+xml" title="ATOM" href="http://gouda.msudenver.edu/redmine/projects/gnucose/activity.atom?key=d2a43558df710db8c86e89da2eb295c7457b099d" />
+</head>
+<body class="theme-Classic project-gnucose controller-activities action-index">
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/redmine/projects/gnucose/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar ">
+                <a href="/redmine/users/175"><img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=80&amp;default=" width="80" height="80" /></a>
+            <a class="user active" href="/redmine/users/175">ConnorSummeril</a>
+        </div>
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/redmine/my/account">My account</a></li>
+<li><a class="logout" rel="nofollow" data-method="post" href="/redmine/logout">Sign out</a></li></ul>    </div>
+    <div id="loggedas">Logged in as <a class="user active" href="/redmine/users/175">ConnorSummeril</a></div>
+    <ul><li><a class="home" href="/redmine/">Home</a></li>
+<li><a class="my-page" href="/redmine/my/page">My page</a></li>
+<li><a class="projects" href="/redmine/projects">Projects</a></li>
+<li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/redmine/projects/gnucose/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        
+        <label for='q'>
+          <a accesskey="4" href="/redmine/projects/gnucose/search">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <span class="jump-box-arrow"></span><select name="project_quick_jump_box" id="project_quick_jump_box" onchange="if (this.value != &#39;&#39;) { window.location = this.value; }"><option value=''>Jump to a project...</option><option value="" disabled="disabled">---</option><option value="/redmine/projects/gnucose?jump=activity" selected="selected">GNUcose</option><option value="/redmine/projects/zombedia?jump=activity">Zombedia</option></select>
+    </div>
+
+    <h1>GNUcose</h1>
+
+    <div id="main-menu">
+        <ul><li><a class="overview" href="/redmine/projects/gnucose">Overview</a></li>
+<li><a class="activity selected" href="/redmine/projects/gnucose/activity">Activity</a></li>
+<li><a class="sprint" href="/redmine/projects/gnucose/sprints">Sprint</a></li>
+<li><a class="product-backlog" href="/redmine/projects/gnucose/product_backlog">Backlog</a></li>
+<li><a class="issues" href="/redmine/projects/gnucose/issues">Issues</a></li>
+<li><a accesskey="7" class="new-issue" href="/redmine/projects/gnucose/issues/new">New issue</a></li>
+<li><a class="gantt" href="/redmine/projects/gnucose/issues/gantt">Gantt</a></li>
+<li><a class="calendar" href="/redmine/projects/gnucose/issues/calendar">Calendar</a></li>
+<li><a class="news" href="/redmine/projects/gnucose/news">News</a></li>
+<li><a class="documents" href="/redmine/projects/gnucose/documents">Documents</a></li>
+<li><a class="wiki" href="/redmine/projects/gnucose/wiki">Wiki</a></li>
+<li><a class="files" href="/redmine/projects/gnucose/files">Files</a></li>
+<li><a class="settings" href="/redmine/projects/gnucose/settings">Settings</a></li></ul>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+        <form action="/redmine/projects/gnucose/activity" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<h3>Activity</h3>
+<ul>
+  <li>
+    <input type="checkbox" name="show_issues" id="show_issues" value="1" checked="checked" />
+    <label for="show_issues">
+      <a href="/redmine/projects/gnucose/activity?show_issues=1">Issues</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_changesets" id="show_changesets" value="1" checked="checked" />
+    <label for="show_changesets">
+      <a href="/redmine/projects/gnucose/activity?show_changesets=1">Changesets</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_news" id="show_news" value="1" checked="checked" />
+    <label for="show_news">
+      <a href="/redmine/projects/gnucose/activity?show_news=1">News</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_documents" id="show_documents" value="1" checked="checked" />
+    <label for="show_documents">
+      <a href="/redmine/projects/gnucose/activity?show_documents=1">Documents</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_files" id="show_files" value="1" checked="checked" />
+    <label for="show_files">
+      <a href="/redmine/projects/gnucose/activity?show_files=1">Files</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_wiki_edits" id="show_wiki_edits" value="1" />
+    <label for="show_wiki_edits">
+      <a href="/redmine/projects/gnucose/activity?show_wiki_edits=1">Wiki edits</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_messages" id="show_messages" value="1" />
+    <label for="show_messages">
+      <a href="/redmine/projects/gnucose/activity?show_messages=1">Messages</a>
+    </label>
+  </li>
+  <li>
+    <input type="checkbox" name="show_time_entries" id="show_time_entries" value="1" />
+    <label for="show_time_entries">
+      <a href="/redmine/projects/gnucose/activity?show_time_entries=1">Spent time</a>
+    </label>
+  </li>
+</ul>
+
+<p><input type="submit" name="submit" value="Apply" class="button-small" /></p>
+</form>
+        
+    </div>
+
+    <div id="content">
+        
+        <h2>Activity</h2>
+<p class="subtitle">From 02/16/2018 to 04/16/2018</p>
+
+<div id="activity">
+<h3>03/01/2018</h3>
+<dl>
+  <dt class="document  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">11:18 PM</span>
+  
+  <a href="/redmine/documents/125">Document: Connor Summeril Resume</a>
+  </dt>
+  <dd class=""><span class="description">This is the open source resume given to James Cameron for contribution to the SugarLabs project.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="attachment  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">11:18 PM</span>
+  
+  <a href="/redmine/attachments/download/380/connor_summeril_resume.pdf">connor_summeril_resume.pdf</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="document  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">11:17 PM</span>
+  
+  <a href="/redmine/documents/124">Document: IRC Transcript with Walter Bender</a>
+  </dt>
+  <dd class=""><span class="description">Here is the IRC Transcript with Walter bender</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="attachment  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">11:17 PM</span>
+  
+  <a href="/redmine/attachments/download/379/sugarlabs_2-4-18_transcripts.txt">sugarlabs_2-4-18_transcripts.txt</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="document  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">11:11 PM</span>
+  
+  <a href="/redmine/documents/123">Document: First Presentation Document</a>
+  </dt>
+  <dd class=""><span class="description">This is the document that represents our first presentation.</span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+  <dt class="attachment  me">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/92225f19ceeec3b0c4a80462935a445d?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">11:11 PM</span>
+  
+  <a href="/redmine/attachments/download/378/ZombillaPres1.pptx">ZombillaPres1.pptx</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/175">Connor Summeril</a></span></dd>
+</dl>
+<h3>02/24/2018</h3>
+<dl>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">03:49 PM</span>
+  
+  <a href="/redmine/issues/989#change-3102">Project/Process #989 (Closed): Work On Accessibility Issue T186553</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">03:48 PM</span>
+  
+  <a href="/redmine/issues/988#change-3101">Project/Process #988 (Closed): Work On Accessibility Issue T184998</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">03:48 PM</span>
+  
+  <a href="/redmine/issues/986#change-3100">Project/Process #986 (Closed): Work on https://phabricator.wikimedia.org/T105315</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+</dl>
+<h3>02/22/2018</h3>
+<dl>
+  <dt class="issue closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">09:45 PM</span>
+  
+  <a href="/redmine/issues/989">Project/Process #989 (Closed): Work On Accessibility Issue T186553</a>
+  </dt>
+  <dd class=""><span class="description">https://phabricator.wikimedia.org/T186553:<br />The notification badges for alerts and messages in the personal bar don...</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+  <dt class="issue closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/fcb15f8c947b45dc6bb9276d67671206?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">09:42 PM</span>
+  
+  <a href="/redmine/issues/988">Project/Process #988 (Closed): Work On Accessibility Issue T184998</a>
+  </dt>
+  <dd class=""><span class="description">https://phabricator.wikimedia.org/T184998:<br />When using the site in one column mode there is a user icon in the top ...</span>
+  <span class="author"><a class="user active" href="/redmine/users/177">Manoj Vasa</a></span></dd>
+</dl>
+<h3>02/20/2018</h3>
+<dl>
+  <dt class="issue-edit  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:53 PM</span>
+  
+  <a href="/redmine/issues/986#change-3085">Project/Process #986 (In Progress): Work on https://phabricator.wikimedia.org/T105315</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+  <dt class="issue-closed  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/414b6bd1c646279fa44b11ff20eb66d8?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">04:04 PM</span>
+  
+  <a href="/redmine/issues/987#change-3084">Defect #987 (Closed): Get login account for Wikimedia.</a>
+  </dt>
+  <dd class=""><span class="description"></span>
+  <span class="author"><a class="user active" href="/redmine/users/172">Holly Radcliffe</a></span></dd>
+</dl>
+<h3>02/19/2018</h3>
+<dl>
+  <dt class="document  ">
+  
+  <span class="time">06:43 PM</span>
+  
+  <a href="/redmine/documents/119">Document: Potential Issues List</a>
+  </dt>
+  <dd class=""><span class="description">https://phabricator.wikimedia.org/T156450<br />QuizGame Special:QuestionGameHome should order headings correctly for sema...</span>
+  <span class="author"></span></dd>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/743a74123beb05b21f215996e8dc1113?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">05:31 PM</span>
+  
+  <a href="/redmine/issues/987#change-3083">Defect #987: Get login account for Wikimedia.</a>
+  </dt>
+  <dd class=""><span class="description">Created account.</span>
+  <span class="author"><a class="user active" href="/redmine/users/70">Stephen Bapple</a></span></dd>
+</dl>
+<h3>02/16/2018</h3>
+<dl>
+  <dt class="issue-note  ">
+  <img default="default" rating="PG" alt="" title="" class="gravatar" ssl="false" src="http://www.gravatar.com/avatar/80f700585f7f5b5109ace259c4658c8c?rating=PG&amp;size=24&amp;default=" width="24" height="24" />
+  <span class="time">01:00 PM</span>
+  
+  <a href="/redmine/issues/986#change-3082">Project/Process #986: Work on https://phabricator.wikimedia.org/T105315</a>
+  </dt>
+  <dd class=""><span class="description">I suggest including live URL links in ticket descriptions to facilitate navigation.  For example, just putting https:...</span>
+  <span class="author"><a class="user active" href="/redmine/users/4">Jody Paul</a></span></dd>
+</dl>
+</div>
+
+
+
+<div style="float:left;">
+<a title="From 12/18/2017 to 02/15/2018" accesskey="p" href="/redmine/projects/gnucose/activity?from=2018-02-15">« Previous</a>
+</div>
+<div style="float:right;">
+
+</div>
+&nbsp;
+<p class="other-formats">Also available in:  <span><a class="atom" rel="nofollow" href="/redmine/projects/gnucose/activity.atom?key=d2a43558df710db8c86e89da2eb295c7457b099d">Atom</a></span>
+</p>
+
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2016 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
